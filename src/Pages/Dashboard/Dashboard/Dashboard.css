@@ -1,0 +1,10 @@
+.dashboard-btn {
+    color: rgb(0, 0, 0) !important;
+    text-align: left !important;
+    font-size: 17px !important;
+}
+
+.dashboard-btn:hover {
+    color: white !important;
+    background-color: black !important;
+}

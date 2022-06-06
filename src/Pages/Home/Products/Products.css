@@ -1,0 +1,22 @@
+.body-color {
+    background-color: rgb(238, 238, 238);
+}
+
+.card-btn {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: 600;
+    padding: 8px 25px 8px 25px;
+    font-family: tahoma;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.card-btn:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}

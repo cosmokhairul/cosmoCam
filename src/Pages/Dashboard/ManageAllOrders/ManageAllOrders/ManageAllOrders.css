@@ -1,0 +1,39 @@
+.action-btn {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 4px 10px 4px 10px;
+    font-family: tahoma;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+}
+
+.action-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.action-btn-delete {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    color: rgb(255, 0, 0);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 4px 10px 4px 10px;
+    font-family: tahoma;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+}
+
+.action-btn-delete:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
