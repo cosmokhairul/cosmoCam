@@ -1,6 +1,6 @@
 # CosmoCam 
 
-### Please visit the site at  [**CosmoCam**](https://cosmocam-9fd06.web.app/explore).
+### Please visit the site at  [**CosmoCam**](https://cosmocam-9fd06.web.app/).
 
 ### CosmoCam is a single product i.e camera based website where one can buy his or her preferred cameras according to their choice.
 
