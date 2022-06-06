@@ -13,7 +13,7 @@ const Purchase = () => {
     const { user } = useAuth();
 
     useEffect(() => {
-        const url = `http://localhost:5000/singleProduct/${productId}`;
+        const url = `https://pacific-ridge-79259.herokuapp.com/singleProduct/${productId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setProduct(data));
@@ -35,7 +35,7 @@ const Purchase = () => {
         data.imageUrl = product.imageUrl;
         data.price = product.price;
 
-        fetch("http://localhost:5000/completePurchase", {
+        fetch("https://pacific-ridge-79259.herokuapp.com/completePurchase", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),

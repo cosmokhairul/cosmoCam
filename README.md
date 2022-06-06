@@ -1,6 +1,6 @@
 # CosmoCam 
 
-### Please visit the site at  [**CosmoCam**](https://pacific-tourism.web.app/).
+### Please visit the site at  [**CosmoCam**](https://cosmocam-9fd06.web.app/explore).
 
 ### CosmoCam is a single product i.e camera based website where one can buy his or her preferred cameras according to their choice.
 

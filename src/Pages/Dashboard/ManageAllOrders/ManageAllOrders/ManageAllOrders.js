@@ -9,7 +9,7 @@ const ManageAllOrders = () => {
     const [changeStatus, setChangeStatus] = useState(false);
 
     useEffect(() => {
-        fetch("http://localhost:5000/allOrders")
+        fetch("https://pacific-ridge-79259.herokuapp.com/allOrders")
             .then(res => res.json())
             .then(data => setOrders(data));
     }, [changeStatus]);
@@ -17,7 +17,7 @@ const ManageAllOrders = () => {
     const handleUpdate = id => {
         const status = "Shipped";
 
-        fetch(`http://localhost:5000/updateStatus/${id}`, {
+        fetch(`https://pacific-ridge-79259.herokuapp.com/updateStatus/${id}`, {
             method: "PUT",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({ status }),
@@ -29,7 +29,7 @@ const ManageAllOrders = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure want to delete?');
         if (proceed) {
-            fetch(`http://localhost:5000/deleteFinal/${id}`, {
+            fetch(`https://pacific-ridge-79259.herokuapp.com/deleteFinal/${id}`, {
                 method: "DELETE",
             })
                 .then((res) => res.json())

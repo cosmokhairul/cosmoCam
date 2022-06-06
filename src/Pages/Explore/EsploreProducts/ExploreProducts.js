@@ -9,7 +9,7 @@ const ExploreProducts = () => {
     const [exploreProducts, setexploreProducts] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://pacific-ridge-79259.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setexploreProducts(data))
     }, []);

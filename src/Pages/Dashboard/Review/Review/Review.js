@@ -15,7 +15,7 @@ const Review = () => {
 
     const onSubmit = data => {
         console.log(data);
-        fetch("http://localhost:5000/addReview", {
+        fetch("https://pacific-ridge-79259.herokuapp.com/addReview", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),

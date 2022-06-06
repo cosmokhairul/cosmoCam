@@ -11,7 +11,7 @@ const AddNewProduct = () => {
 
     const onSubmit = data => {
         console.log(data);
-        fetch("http://localhost:5000/addNewProduct", {
+        fetch("https://pacific-ridge-79259.herokuapp.com/addNewProduct", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),

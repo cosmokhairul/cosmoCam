@@ -11,7 +11,7 @@ const MyOrders = () => {
     const email = user.email;
 
     useEffect(() => {
-        fetch(`http://localhost:5000/myOrders/${email}`)
+        fetch(`https://pacific-ridge-79259.herokuapp.com/myOrders/${email}`)
             .then((res) => res.json())
             .then((data) => setproducts(data));
     }, [email]);
@@ -19,7 +19,7 @@ const MyOrders = () => {
     const handleDelete = (id) => {
         const proceed = window.confirm('Are you sure want to cancel the Order?');
         if (proceed) {
-            fetch(`http://localhost:5000/cancelOrder/${id}`, {
+            fetch(`https://pacific-ridge-79259.herokuapp.com/cancelOrder/${id}`, {
                 method: "DELETE",
             })
                 .then((res) => res.json())
